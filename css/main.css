@@ -1,0 +1,245 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.logo-text {
+	font-family: 'Dawning of a New Day', cursive;
+	left: 50%;
+	margin-bottom: 0px;
+}
+
+.jumbo1 {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: .5em;
+	text-align: center;
+}
+
+.jumbo2 {
+	font-family: 'Khula', sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 1.3em;
+	margin-top: 20px;
+	line-height: 1em;
+	display: block;
+	letter-spacing: .015em;
+	text-align: center;
+	padding-bottom: 1em;
+	word-spacing: 0px;
+	
+}
+
+.jumbo4 {
+	padding-top: 4em;
+    padding-bottom: 5em;
+}
+
+
+@media (min-width: 768px) {
+.navbar-nav.nav-justified > li{
+    float:none;
+}
+
+.menu-width {
+	width: 650px;
+}
+
+.jumbo2 {
+	margin-top: 25px;
+	
+}
+
+
+}
+
+.row h2 {
+	color: #69201C;
+	font-weight: 700;
+	font-size: 1.5em;
+	
+}
+
+a.navbar-brand {
+	padding-bottom:  0px;
+	vertical-align: middle;
+	float: none;
+	width: 30px;
+    height: 30px;
+	display: inline-block;
+	margin-top: -5px;
+	padding: 5px 5px;
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.navbar-brand img {
+	height: auto;
+	top: 1%;
+	width:  100%;	
+}
+
+.navbar-inverse {
+	background-image: none;
+	background-color: #69201C;
+	border-color: #69201C;
+	color: #B48B9B;
+}
+body {
+	color: #291420;
+	font-family: 'Roboto Slab', serif;
+}
+.jumbotron {
+	background-color: #B48B9B;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-image1 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) ), url(../img/uppermediapartners.jpg);
+}
+.btn-primary {
+	background-image: none;
+	background-color: #F2002F;
+	border-color: #69201C;
+}
+.btn-primary:hover {
+	background-color: #8C1011;
+	border-color: #69201C;
+}
+.branding-top {
+    top: 0;
+	margin-top: -10px;
+	text-align: center;
+}
+
+.menu-container {
+	background-color: none;
+}
+
+.nav.navbar-nav.nav-justified li a {
+	color: #291420;
+	font-family: 'Khula', sans-serif;
+}
+
+a:hover, a:focus {
+	color: #F2002F;
+	text-shadow: none;
+	transition: all 1s ease 0s;	
+}
+
+.nav.navbar-nav.nav-justified li .active {
+    color: #F2002F;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #F2002F;
+	text-shadow: none;
+	transition: all 1s ease 0s;
+}
+
+.nav.navbar-nav.navbar-right.active li a {
+	color: #F2002F;	
+}
+
+.navbar-collapse.collapse {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+#colophon {
+	color: #B48B9B;
+}
+
+.top-buffer { margin-top:20px; }
+
+.jumbo3 {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: .8em;
+	text-align: center;
+    vertical-align: middle;
+}
+
+.header-image2 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url(../img/greenpricing.jpg);
+}
+
+.row h4 {
+    color: #B48B9B;
+    border-top: 1px solid #B48B9B;
+    font-weight: lighter;    
+}
+
+.panel-heading h5 {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.panel-body h5 {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.rosetext {
+    color: #B48B9B;
+}
+
+.panel-primary {
+    border-color: #69201C;
+}
+
+.panel-primary .panel-heading {
+    background-color: #69201C;
+    border-color: #69201C;
+    background-image: none;
+}
+
+.disabled {
+    background-image: none;
+    background-color: darkgrey;
+    border: none;
+}
+
+.panel-warning .panel-heading {
+    background-image: none;
+    background-color: darkgrey;
+    border: none;
+    color: grey;
+}
+
+.header-image3 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url(../img/contactus.jpg);
+}
+
+.header-image4 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15) ), url(../img/uppermediabanner.svg);
+}
+
+.jumbo5 {
+	padding-top: 15em;
+    padding-bottom: 20%;
+}
+
+.jumbotron1 {
+    background-color: #9DE0AD;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-image5 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url(../img/servicesassist.jpg);
+}
+
+.jumbotron2 {
+    background-position: 0% 70%;
+}
+
+.jumbo6 {
+    padding-top: 7em;
+    padding-bottom: 10em;
+}

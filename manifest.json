@@ -1,0 +1,28 @@
+{
+  "short_name": "Upper Media",
+  "name": "Upper Media",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "tile.png",
+      "type": "image/png",
+      "sizes": "558x558"
+    },
+    {
+      "src": "tile-wide.png",
+      "type": "image/png",
+      "sizes": "558x270"
+    }
+  ],
+  "start_url": "index.html?launcher=true",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Your trusted partner.",
+    "lang": "en-US",
+    "theme_color": "white"
+    
+}
