@@ -34,7 +34,7 @@
 
 .jumbo4 {
 	padding-top: 4em;
-    padding-bottom: 5em;
+    padding-bottom: 5em;  
 }
 
 
@@ -242,7 +242,6 @@ a:hover, a:focus {
 .jumbo6 {
     padding-top: 7em;
     padding-bottom: 10em;
-    background-color: #9DE0AD;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
