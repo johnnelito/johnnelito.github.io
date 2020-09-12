@@ -35,6 +35,9 @@
 .jumbo4 {
 	padding-top: 4em;
     padding-bottom: 5em;  
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -93,8 +96,6 @@ body {
 .jumbotron {
 	background-color: #B48B9B;
     background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .header-image1 {
@@ -227,7 +228,7 @@ a:hover, a:focus {
 .jumbotron1 {
     background-color: #9DE0AD;
     background-position: 50% 50%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -237,6 +238,8 @@ a:hover, a:focus {
 
 .jumbotron2 {
     background-position: 0% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .jumbo6 {
